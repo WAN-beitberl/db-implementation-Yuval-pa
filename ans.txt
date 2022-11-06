@@ -1,0 +1,6 @@
+1. I think that the table stores information about: the number of the word, the direction, start and end coordinates, the prompt and the answer.
+2.I don't think that the user's inputs are stored in a table because every time the user makes a chenge the table needs to be updated,
+ and I think it will be easier to just store that info in some data structure.
+
+the commend i used to create the table:
+create table tbl(number int, direction text, start_coordinates text, end_coordinates text, prompt text, answer text);
